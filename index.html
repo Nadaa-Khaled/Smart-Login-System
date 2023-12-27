@@ -1,0 +1,39 @@
+<html>
+  <head> 
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+   <link rel="shortcut icon" href="img/login-svgrepo-com.svg" type="image/x-icon">
+ 
+  </head>
+  <body>
+  
+    <span class="d-none" id="username"></span>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-lg-5 col-sm-12 m-auto">
+        <div class="login-layer bg-white rounded-3 shadow-lg my-5 py-5">
+          <h1 class="text-center my-5 py-3">Smart Login System </h1>
+          <input id="signinEmail" class="form-control my-3  w-75 py-2 m-auto" placeholder="Enter your email" type="text">
+          <input id="signinPassword" class="form-control my-3  w-75 py-2 m-auto" placeholder="Enter your password" type="password">
+          <p id="incorrect" class="text-center text-muted "></p>
+
+          <button onclick="login()" class="btn btn-outline-secondary mt-5 py-2 w-50 rounded-pill m-auto d-flex justify-content-center">Login</button>
+          <p class="text-center my-3 pb-5">Don’t have an account? <a  href='signup.html' class="text-muted">Sign Up</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  
+  
+    
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  </body>
+</html>
